@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Limelight&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Homemade+Apple&family=Limelight&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+.title{
+    font-family: "Homemade Apple", cursive;
+}
+
+header {
+    overflow: hidden;
+    padding-bottom: 10vh;
+}
+body{
+    background-color: #f3d6d8;
+}
+
+.center-page {
+    height: 60vh; /* 100% of the viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin-top: 5vh;
+    background: #faf5eb;
+    border-radius: 25px;
+}
+
+.center-page .card{
+    padding: 5% 3%;
+}
+.card-body{
+    height: 100% ;
+}
+@media (max-width: 768px) { /* Small devices */
+    .center-page{
+        height: auto;
+    }
+    header{
+        min-height: auto;
+        height: auto ;
+        padding-bottom: 0vh;
+    }
+    .spot-track{
+        width: 100%;
+    }
+    .row-of-spot{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 769px) {
+    .spot-track{
+        width: 20%; 
+    }
+    .row-of-spot{
+        display: flex;
+        justify-content: center;
+        gap: 3vh;
+    }
+}
+
+
+main{
+    margin-top: 20vh;
+    overflow: hidden;
+}
+main div{
+    background-color: #faf5eb;
+}
+
+.tag{
+    background-color: #faf5eb;
+    padding: 0vh 5vh;
+    border-bottom: 2px solid #acafb3;
+    border-top: 0.5px solid #acafb3;
+    border-left: 0.5px solid #acafb3;
+    border-right: 0.5px solid #acafb3;
+}
+.tag-parent{
+    margin: 7vh 0vh;
+}
+.spot-track{
+    
+    margin-top: 1vh;
+}
+.row-of-spot{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2vh
+}
+.song-heading{
+    padding: 2vh 0vh;
+    background-color: #f3d6d8;
+    border: 0.5px solid #acafb3;
+}
+.back-story{
+    margin-top: 10vh;
+    border: 1.5px, solid, #acafb3;
+}
+.heading{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+.song-board{
+    border: 1.5px, solid, #acafb3;
+}
+.signature{
+    font-family: "Homemade Apple", cursive;
+    margin-bottom: 0px;
+}
+
