@@ -37,35 +37,6 @@ body{
 .card-body{
     height: 100% ;
 }
-@media (max-width: 768px) { /* Small devices */
-    .center-page{
-        height: auto;
-    }
-    header{
-        min-height: auto;
-        height: auto ;
-        padding-bottom: 0vh;
-    }
-    .spot-track{
-        width: 100%;
-    }
-    .row-of-spot{
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-
-@media (min-width: 769px) {
-    .spot-track{
-        width: 20%; 
-    }
-    .row-of-spot{
-        display: flex;
-        justify-content: center;
-        gap: 3vh;
-    }
-}
-
 
 main{
     margin-top: 20vh;
@@ -116,5 +87,34 @@ main div{
 .signature{
     font-family: "Homemade Apple", cursive;
     margin-bottom: 0px;
+}
+
+@media (max-width: 768px) { /* Small devices */
+    .center-page{
+        height: auto;
+    }
+    header{
+        min-height: auto;
+        height: auto ;
+        padding-bottom: 0vh;
+    }
+    .spot-track{
+        width: 100%;
+    }
+    .row-of-spot{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 769px) {
+    .spot-track{
+        width: 20%; 
+    }
+    .row-of-spot{
+        display: flex;
+        justify-content: center;
+        gap: 3vh;
+    }
 }
 
